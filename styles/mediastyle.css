@@ -1,0 +1,136 @@
+@media screen and (max-width:770px) {
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .navpanel {
+        padding-block: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .reasons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero_heading {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 5px;
+    transform: translateX(-30%);
+    opacity: 0;
+    animation: slideRight1 1s ease-in-out forwards;
+}
+#hero {
+    background-color: rgb(32, 60, 99);
+    padding: 10px;
+    place-content: center;
+    padding-block: 30px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+}
+.herolinks a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 7px;
+    border-radius: 10px;
+    font-size: 7px;
+}
+.hero_p {
+    color: white;
+    transform: translateX(-40%);
+    opacity: 0;
+    animation: slideRight2 1s ease-in-out forwards;
+    font-size: 10px;
+}
+.why_choose_ustitle {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+    transform: translateY(-100px);
+    opacity: 0;
+    animation: slideDown1 1s ease-in-out forwards;
+}
+.why_choose_usheading {
+    font-weight: 700;
+    font-size: 20px;
+}
+.why_choose_us_p {
+    font-size: 12px;
+}
+.reasons_box {
+    place-content: center;
+    width: 80%;
+    text-align: center;
+    background-color: #fbf8f4;
+    padding: 20px 10px;
+    box-shadow: 2px 2px 5px #e1e1e1;
+    border-radius: 10px;
+    opacity: 0;
+    height: 0px;
+    overflow-y: hidden;
+    animation: heightDown 1.5s ease-in-out forwards;
+}
+.reasons_box span {
+    font-size: 20px;
+    color: rgb(32, 60, 99);
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+}
+.featurestitle h1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.featurestitle p{
+    font-size: 12px;
+}
+.featuredesc {
+    width: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    text-align: center;
+    align-items: center;
+}
+.featuredesc_conta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.featuredesc h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.featuredesc p {
+    font-size: 12px;
+}
+.navpanel a {
+    text-decoration: none;
+    font-size: 12px;
+}
+.logoimg{
+    width: 30%;
+}
+.logoimg img{
+    width: 100%;
+}
+}
